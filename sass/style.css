@@ -36,4 +36,66 @@
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.bg-image {
+  width: 10%;
+  height: 70px;
+}
+
+.main-container {
+  width: 1440px;
+  margin: auto;
+  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.container {
+  width: 1440px;
+  margin-bottom: 5rem;
+}
+
+.image-container {
+  width: 1440px;
+  margin: auto;
+}
+
+.image-container img {
+  margin: 0;
+  width: 100%;
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-left: none;
+  position: relative;
+}
+
+.image-content {
+  position: absolute;
+  width: 60%;
+  top: 10rem;
+  left: 10rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.image-text {
+  color: white;
+}
+
+.secondlast-container {
+  width: 1440px;
+  height: 100rem;
+  display: flex;
+  gap: 15px;
+}
+
+.secondlast-container-item {
+  flex-basis: 50%;
+  height: 100rem;
 }/*# sourceMappingURL=style.css.map */
